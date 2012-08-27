@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspberryPiDotNet", "RaspberryPiDotNet\RaspberryPiDotNet.csproj", "{FC84D8A0-B578-4663-9BDA-D946513E2801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpioShakeOut", "GpioShakeOut\GpioShakeOut.csproj", "{D2C3E1C2-53A0-4198-B97B-DE50F51DDFBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2C3E1C2-53A0-4198-B97B-DE50F51DDFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C3E1C2-53A0-4198-B97B-DE50F51DDFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C3E1C2-53A0-4198-B97B-DE50F51DDFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C3E1C2-53A0-4198-B97B-DE50F51DDFBB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC84D8A0-B578-4663-9BDA-D946513E2801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC84D8A0-B578-4663-9BDA-D946513E2801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC84D8A0-B578-4663-9BDA-D946513E2801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC84D8A0-B578-4663-9BDA-D946513E2801}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RaspberryPiDotNet\RaspberryPiDotNet.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

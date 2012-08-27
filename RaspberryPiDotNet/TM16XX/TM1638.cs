@@ -109,7 +109,10 @@ namespace RaspberryPiDotNet
 
         public override void sendChar(byte pos, byte data, bool dot)
         {
-            sendData((byte)(pos << 1), (byte)(data | (dot ? Convert.ToByte("10000000", 2) : 0)));
+            sendData(
+				(byte)(pos << 1),
+			    (byte)(data | (dot ? ((byte)1) : ((byte)0)))
+				);
         }
     }
 }
