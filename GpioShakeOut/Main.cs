@@ -9,7 +9,7 @@ namespace GpioShakeOut
 		public static void Main (string[] args)
 		{
             FlashLed();
-            //MaxToggleSpeed();
+           // MaxToggleSpeed();
       	}
 
         private static void FlashLed()
@@ -29,18 +29,6 @@ namespace GpioShakeOut
         {
             // set up which GPIO pin we will use
             GPIOFile gpio = new GPIOFile(GPIO.GPIOPins.GPIO04);
-
-            bool toggle = true;
-            while (true)
-            {
-                gpio.Write(toggle ^= true);
-            }
-        }
-
-        private static void MaxToggleSpeed()
-        {
-            // set up which GPIO pin we will use
-            GPIOFile gpio = new GPIOFile(GPIO.GPIOPins.GPIO18,);
 
             bool toggle = true;
             while (true)
