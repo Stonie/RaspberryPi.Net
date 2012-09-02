@@ -4,6 +4,7 @@ RaspberryPi.Net
 Raspberry PI .NET library
 
 Quick Start:
+---------------
 
 Grab the latest Debian (“Raspbian”) image:
 http://www.raspberrypi.org/downloads
@@ -22,6 +23,11 @@ Once you have built locally, copy your executables from /bin/ to your RPi (try s
 
 Then back on the command-line on the RPi:
 
+```bash
 # mono yourexecutable.exe
+```
 
-Have fun. 
+Have fun!
+
+ :) 
+ Stonie.
